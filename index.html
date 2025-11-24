@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main class="d-flex justify-content-center" id="meio">
+        <form class="formulario-adocao " id="formulario">
+            <div class="form-row row">
+                <div class="form-group col-md-12 mb-3">
+                    <label for="nome_completo">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Ana Vidal" required />
+                </div>
+                <div class="form-group col-md-12 mb-3">
+                    <label>E-mail:</label>
+                    <input type="email" class="form-control" id="email" placeholder="00000@gmail.com.br" required />
+                </div>
+                <div class="form-group col-md-6 mb-3">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" class="form-control" id="sala" placeholder="(00)0000-0000" required />
+                </div>
+
+                <div class="form-group col-md-6 mb-3">
+                    <label for="select">Cidade:</label>
+                    <select class="form-control" id="turma">
+                        <option value="Selecione...">Selecione...</option>
+                        <option value="Barbacena">Barbacena</option>
+                        <option value="Belo Horizonte">Belo Horizonte</option>
+                        <option value="Betim">Betim</option>
+                        <option value="Contagem">Contagem</option>
+                        <option value="Divinópolis">Divinópolis</option>
+                        <option value="Governador Valadares">Governador Valadares</option>
+                        <option value="Ibirité">Ibirité</option>
+                        <option value="Ipatinga">Ipatinga</option>
+                        <option value="Juiz de Fora">Juiz de Fora</option>
+                        <option value="Montes Claros">Montes Claros</option>
+                        <option value="Patos de Minas">Patos de Minas</option>
+                        <option value="Poços de Caldas">Poços de Caldas</option>
+                        <option value="Pouso Alegre">Pouso Alegre</option>
+                        <option value="Ribeirão das Neves">Ribeirão das Neves</option>
+                        <option value="Santa Luzia">Santa Luzia</option>
+                        <option value="Sete Lagoas">Sete Lagoas</option>
+                        <option value="Teófilo Otoni">Teófilo Otoni</option>
+                        <option value="Uberaba">Uberaba</option>
+                        <option value="Uberlândia">Uberlândia</option>
+                        <option value="Varginha">Varginha</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12 d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary w-30 me-2">
+                        Cadastrar
+                    </button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

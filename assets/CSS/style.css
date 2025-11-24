@@ -1,0 +1,59 @@
+body {
+    background-color: #9198e5 !important;
+    font-family: Arial, sans-serif;
+}
+
+.formulario-adocao {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.formulario-adocao label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+
+}
+
+.formulario-adocao .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.formulario-adocao .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.formulario-adocao .btn {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-adocao .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.formulario-adocao .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#formulario {
+    width: 600px;
+}
