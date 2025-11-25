@@ -57,3 +57,51 @@ body {
 #formulario {
     width: 600px;
 }
+
+@media (max-width: 768px) {
+    #formulario {
+        width: 90%;
+    }
+
+    .formulario-adocao {
+        font-size: 30px;
+        padding: 50px;
+    }
+
+    .formulario-adocao .btn {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .formulario-adocao .form-control {
+        padding: 20px;
+    }
+
+    .formulario-adocao .form-control::placeholder {
+        font-size: 20px;
+    }
+
+    #turma {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #formulario {
+        width: 95%;
+    }
+
+    .formulario-adocao {
+        padding: 30px;
+    }
+
+    .formulario-adocao .btn {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .formulario-adocao label {
+        font-size: 20px;
+    }
+}
